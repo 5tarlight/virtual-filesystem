@@ -11,4 +11,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(vfs main.cpp
         fs.h
         cli.h
+        async/ThreadPool.h
+        async.h
+        util.h
 )
