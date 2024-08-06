@@ -1,6 +1,10 @@
 #include <iostream>
+#include "fs.h"
+#include "cli.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    test_fs();
+    test_cli();
+
     return 0;
 }
